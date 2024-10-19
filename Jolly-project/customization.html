@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Village Customization - Code & Cobblestones</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="instructions.html">Game Instructions</a></li>
+                <li><a href="dashboard.html">Player Dashboard</a></li>
+                <li><a href="customization.html" class="active">Village Customization</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Customize Your Village</h2>
+        <p>Currency: <span id="currency">500</span> coins</p>
+        
+        <div class="customization-options">
+            <label for="buildings">Choose a building:</label>
+            <select id="buildings">
+                <option value="cottage">Cottage - 100 coins</option>
+                <option value="market">Market - 75 coins</option>
+                <option value="garden">Garden - 50 coins</option>
+            </select>
+
+            <label for="decorations">Choose a decoration:</label>
+            <select id="decorations">
+                <option value="gnome">Gnome - 25 coins</option>
+                <option value="plant">Plant - 50 coins</option>
+                <option value="flowerbed">Flower Beds - 75 coins</option>
+            </select>
+
+            <button id="confirm">Confirm Changes</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Code & Cobblestones</p>
+        <a href="https://validator.w3.org/check?uri=referer" referrerpolicy="unsafe-url">Validate HTML</a><br>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" referrerpolicy="unsafe-url">Validate CSS</a>
+    </footer>
+
+    
